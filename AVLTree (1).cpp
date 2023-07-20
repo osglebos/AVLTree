@@ -24,8 +24,8 @@ int main()
 	int Nodes[7]={ 15,1,8,13,24,25,30 };
 	AVLtree* newKnot = nullptr;
 
-	//ñîçäàíèå êîğíÿ
-	cout << "==ÑÎÇÄÀÍÈÅ ÊÎĞÍß ÄÅĞÅÂÀ==\n";
+	//Ã±Ã®Ã§Ã¤Ã Ã­Ã¨Ã¥ ÃªÃ®Ã°Ã­Ã¿
+	cout << "==Ã‘ÃÃ‡Ã„Ã€ÃÃˆÃ… ÃŠÃÃÃÃŸ Ã„Ã…ÃÃ…Ã‚Ã€==\n";
 	treeRoot = new AVLtree();
 	treeRoot->leftNode = nullptr;
 	treeRoot->rightNode = nullptr;
@@ -38,7 +38,7 @@ int main()
 	}
 	//
 
-	cout << "==ÎÁÙÅÅ ÄÅĞÅÂÎ==" << endl;
+	cout << "==ÃÃÃ™Ã…Ã… Ã„Ã…ÃÃ…Ã‚Ã==" << endl;
 	print_Tree(treeRoot, 0);
 	cout << endl << endl;
 
@@ -122,7 +122,7 @@ void checkNode(AVLtree* ptreeRoot, int recursionDepth, int* pcountNode, int psiz
 			}
 			if (flag == false)
 			{
-				cout << "Äåğåâî: " << endl;
+				cout << "Ã„Ã¥Ã°Ã¥Ã¢Ã®: " << endl;
 				print_Tree(ptreeRoot, 0);
 				cout << endl << endl;
 			}
